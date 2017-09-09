@@ -1,11 +1,20 @@
 {
-  "author": "Andriy Rakhnin <a@rakhnin.com>",
   "name": "ah-slack-server-plugin",
   "description": "Slack ActionHero API server implementation",
-  "version": "0.0.1",
-  "engines": {
-    "node": ">=4.0.0"
+  "version": "0.0.2",
+  "license": "GNU",
+  "repository": "rakhnin/rework-import-external",
+  "author": {
+    "name": "Andriy Rakhnin",
+    "email": "a@rakhnin.com"
   },
+  "keywords": [
+    "actionhero",
+    "plugin",
+    "slack",
+    "server",
+    "bot"
+  ],
   "dependencies": {
     "@slack/client": "^3.10.0",
     "minimist-string": "^1.0.2"
@@ -16,9 +25,6 @@
     "dirty-chai": "^2.0.1",
     "mocha": "latest",
     "standard": "^10.0.2"
-  },
-  "scripts": {
-    "test": "cross-env NODE_ENV=test mocha"
   },
   "standard": {}
 }
