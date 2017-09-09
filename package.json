@@ -3,7 +3,7 @@
   "description": "Slack ActionHero API server implementation",
   "version": "0.0.2",
   "license": "GNU",
-  "repository": "rakhnin/rework-import-external",
+  "repository": "rakhnin/ah-slack-server-plugin",
   "author": {
     "name": "Andriy Rakhnin",
     "email": "a@rakhnin.com"
